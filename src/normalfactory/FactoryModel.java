@@ -1,6 +1,7 @@
 package normalfactory;
 
 //泛型工厂模式
+//抽象父工厂类生产不同的子工厂生产对应子工厂的产品
 public class FactoryModel {
     public static void main(String[] args) throws InstantiationException, IllegalAccessException {
         Factory hotFruitFactory = new HotFruitFactory();
